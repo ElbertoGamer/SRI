@@ -1,12 +1,18 @@
 Preparación del entorno: Instalación y configuración de la red. 
+
 a) Instala y configura las máquinas indicadas en la topología de red, asignando manualmente 
 las direcciones IP indicadas a los dispositivos correspondientes. Cambia los nombres de los 
 equipos según se indica en el diagrama. 
 
 ![Imagen PfSense](Tarea2/Captura1.PNG)
+Preparamos el PfSense con nuestra IP.
+
 ![Imagen Debian Server](Tarea2/Captura2.PNG)
+
 ![Imagen Windows Cliente](Tarea2/Captura3.PNG)
+
 ![Imagen Debian Cliente](Tarea2/Captura4.PNG)
+Configuramos los parámetros de red de las 3 máquinas y hacemos ping para comprobar.
 
 b) Realiza los ajustes necesarios en el router pfSense para que funcione correctamente. NOTA: 
 Recuerda desactivar el servidor DHCP en la interfaz interna SRIXX.
