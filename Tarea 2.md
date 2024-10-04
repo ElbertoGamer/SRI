@@ -3,17 +3,19 @@ a) Instala y configura las máquinas indicadas en la topología de red, asignand
 las direcciones IP indicadas a los dispositivos correspondientes. Cambia los nombres de los 
 equipos según se indica en el diagrama. 
 
-![Imagen PfSense](Tarea2/Captura1)
-![Imagen Debian Server](Tarea2/Captura2)
-![Imagen Windows Cliente](Tarea2/Captura3)
-![Imagen Debian Cliente](Tarea2/Captura4)
+![Imagen PfSense](Tarea2/Captura1.PNG)
+![Imagen Debian Server](Tarea2/Captura2.PNG)
+![Imagen Windows Cliente](Tarea2/Captura3.PNG)
+![Imagen Debian Cliente](Tarea2/Captura4.PNG)
 
 b) Realiza los ajustes necesarios en el router pfSense para que funcione correctamente. NOTA: 
-Recuerda desactivar el servidor DHCP en la interfaz interna SRIXX. 
+Recuerda desactivar el servidor DHCP en la interfaz interna SRIXX.
+
 c) Comprueba que la máquina Debian navega por Internet. 
 HASTA QUE LA RED NO ESTÉ BIEN CONFIGURADA Y TODOS LOS EQUIPOS CON 
 CONEXIÓN A INTERNET, NO DEBES COMENZAR A CONFIGURAR EL SERVICIO 
-DHCP. 
+DHCP.
+
 SERVICIOS DE RED E INTERNET - CFGS ASIR 
 Unidad 1: Servicio de configuración automática de red
 UT1-Prática2 Página 4 
