@@ -11,6 +11,8 @@ equipos según se indica en el diagrama.
 b) Realiza los ajustes necesarios en el router pfSense para que funcione correctamente. NOTA: 
 Recuerda desactivar el servidor DHCP en la interfaz interna SRIXX.
 
+![Imagen PfSense sin DHCP](Tarea2/Captura5.PNG)
+
 c) Comprueba que la máquina Debian navega por Internet. 
 HASTA QUE LA RED NO ESTÉ BIEN CONFIGURADA Y TODOS LOS EQUIPOS CON 
 CONEXIÓN A INTERNET, NO DEBES COMENZAR A CONFIGURAR EL SERVICIO 
