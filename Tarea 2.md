@@ -5,6 +5,7 @@ las direcciones IP indicadas a los dispositivos correspondientes. Cambia los nom
 equipos según se indica en el diagrama. 
 
 ![Imagen PfSense](Tarea2/Captura1.PNG)
+
 Preparamos el PfSense con nuestra IP.
 
 ![Imagen Debian Server](Tarea2/Captura2.PNG)
