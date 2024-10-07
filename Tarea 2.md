@@ -1,12 +1,19 @@
 Preparación del entorno: Instalación y configuración de la red. 
+
 a) Instala y configura las máquinas indicadas en la topología de red, asignando manualmente 
 las direcciones IP indicadas a los dispositivos correspondientes. Cambia los nombres de los 
 equipos según se indica en el diagrama. 
 
 ![Imagen PfSense](Tarea2/Captura1.PNG)
+
+Preparamos el PfSense con nuestra IP.
+
 ![Imagen Debian Server](Tarea2/Captura2.PNG)
+
 ![Imagen Windows Cliente](Tarea2/Captura3.PNG)
+
 ![Imagen Debian Cliente](Tarea2/Captura4.PNG)
+Configuramos los parámetros de red de las 3 máquinas y hacemos ping para comprobar.
 
 b) Realiza los ajustes necesarios en el router pfSense para que funcione correctamente. NOTA: 
 Recuerda desactivar el servidor DHCP en la interfaz interna SRIXX.
@@ -21,6 +28,7 @@ DHCP.
 ![Imagen Debian Server](Tarea2/Captura6.PNG)
 
 Ejercicio 1. Configuración del servidor DHCP. 
+
 a) Instala el servidor DHCP en la máquina correspondiente. 
 
 ![Imagen Debian DHCP](Tarea2/Captura7.PNG)
@@ -90,6 +98,7 @@ SERVICIOS DE RED E INTERNET - CFGS ASIR
 Unidad 1: Servicio de configuración automática de red
 UT1-Prática2 Página 5 
 Ejercicio 3. Funcionamiento del servicio. 
+
 Para terminar, deberás explicar la actividad generada por el servidor isc-dhcp-server que has 
 instalado y configurado y que se ha registrado en los logs del sistema por la herramienta 
 Journalctl. 
