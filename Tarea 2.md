@@ -18,29 +18,62 @@ HASTA QUE LA RED NO ESTÉ BIEN CONFIGURADA Y TODOS LOS EQUIPOS CON
 CONEXIÓN A INTERNET, NO DEBES COMENZAR A CONFIGURAR EL SERVICIO 
 DHCP.
 
-SERVICIOS DE RED E INTERNET - CFGS ASIR 
-Unidad 1: Servicio de configuración automática de red
-UT1-Prática2 Página 4 
+![Imagen Debian Server](Tarea2/Captura6.PNG)
+
 Ejercicio 1. Configuración del servidor DHCP. 
 a) Instala el servidor DHCP en la máquina correspondiente. 
+
+![Imagen Debian DHCP](Tarea2/Captura7.PNG)
+
 b) Realiza las configuraciones adicionales necesarias para que funcione el servidor DHCP. 
+
+![Imagen Debian DHCP](Tarea2/Captura8.PNG)
+
 c) Realiza las configuraciones necesarias para cumplir los siguientes requisitos: 
 a. El servidor repartirá direcciones IP en el rango 10.0.XX.1 – 10.0.XX.100. 
+
+![Imagen Debian DHCP](Tarea2/Captura9.PNG)
+
 b. Utilizará la máscara por defecto correspondiente a esa subred. 
+
+![Imagen Debian DHCP](Tarea2/Captura10.PNG)
+
 c. Deberá utilizar como puerta de enlace la que corresponda según el 
 diagrama de red. 
+
+![Imagen Debian DHCP](Tarea2/Captura11.PNG)
+
 d. Como servidor DNS preferido se utilizará el del instituto (deberás 
 averiguarlo) y como alternativo el de google. 
+
+![Imagen Debian DHCP](Tarea2/Captura12.PNG)
+
 e. Además, se enviará a los clientes el sufijo DNS sriXX.local. 
-f. Para el cliente Ubuntu se le reservará la dirección 10.0.XX.60. 
+
+![Imagen Debian DHCP](Tarea2/Captura13.PNG)
+
+f. Para el cliente Ubuntu se le reservará la dirección 10.0.XX.60.
+
+![Imagen Debian DHCP](Tarea2/Captura14.PNG)
+
 g. Respecto a los tiempos de alquiler: 
 i. El tiempo de alquiler por defecto será de 15 días para todos los 
 equipos. 
 ii. Nunca será superior a 30 días. 
 iii. Nunca será inferior a 1 semana. 
+
+![Imagen Debian DHCP](Tarea2/Captura15.PNG)
+Configuro las 3 cosas en orden.
+
 d) Reinicia el servicio y verifica que tras el reinicio está activo y en ejecución. 
+
+![Imagen Debian DHCP](Tarea2/Captura16.PNG)
+
 Ejercicio 2. Configuración de los clientes DHCP. 
 a) Configura los equipos Windows y Linux como clientes DHCP. 
+
+
+
 b) Observa dentro del archivo adecuado del servidor si las IPs han sido asignadas. 
 c) Observa dentro de ambos clientes que son correctos todos los parámetros enviados por el 
 servidor, es decir: 
