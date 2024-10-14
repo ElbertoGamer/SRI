@@ -1,4 +1,4 @@
-Preparación del entorno: Instalación y configuración de la red. 
+# Preparación del entorno: Instalación y configuración de la red. 
 
 Instalamos y configuramos las máquinas indicadas en la topología de red, asignando manualmente 
 las direcciones IP indicadas a los dispositivos correspondientes.
@@ -74,7 +74,7 @@ Reinicio el servicio y verifico que tras el reinicio está activo y en ejecució
 
 ![Imagen Debian DHCP](Tarea2/Captura16.PNG)
 
-Configuración de los clientes DHCP. 
+# Configuración de los clientes DHCP. 
 Configuramos los equipos Windows y Linux como clientes DHCP. 
 
 ![Imagen Debian DHCP](Tarea2/Captura17.PNG)
@@ -106,7 +106,7 @@ a Internet.
 
 ![Imagen Deb Pings](Tarea2/Captura23.PNG)
 
-Funcionamiento del servicio. 
+# Funcionamiento del servicio. 
 
 Para terminar, explico la actividad generada por el servidor isc-dhcp-server que he 
 instalado y configurado y que se ha registrado en los logs del sistema por la herramienta 
